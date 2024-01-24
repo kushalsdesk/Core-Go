@@ -26,7 +26,7 @@ func main() {
 
 	// creating the timestamps from any of the values
 
-	createDate := time.Date(2024, time.July, 28, 22, 30, 0 ,0 ,time.UTC)
+	createDate := time.Date(2024, time.July, 28, 22, 30, 0, 0, time.UTC)
 
 	fmt.Println(createDate)
 	//again need to format the data created
