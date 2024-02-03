@@ -2,5 +2,5 @@
 
 
 
-## Done 18/57 in chapters....   the variables, types, constants, public, maps, structs, ifelse
+## Done 22/57 in chapters....   the variables, types, constants, public, maps, structs, ifelse, loops, functions
 
