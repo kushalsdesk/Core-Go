@@ -27,7 +27,7 @@ func adder(valOne int, valTwo int) int {
 	return valOne + valTwo
 }
 
-// standard syntax for handling common values
+// a Variadic Functions
 func proAdder(values ...int) int {
 	total := 0
 

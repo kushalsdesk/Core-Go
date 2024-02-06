@@ -20,10 +20,14 @@
     * ✔️Funciton scope & visibility
 * Packages & Imports 
     * ✔️Organize Code into packages
-    * ✔️Importing and using packages 
+    * ✔️Importing and using packages
+* Input & Output(I/O)
+    * ✔️With `bufio`,`os` packages
+    * ✔️With `Scanln`, Formatting with `Scanf`
+
 
 **2. Strings: ✅**
-* Declaring and initializing strings
+* ✔️️Declaring and initializing strings
 * ✔️️Concatenation and Formatting
 * ✔️Essential methods for manipulation (e.g., `length`, `capacity`, `compare`, etc.) 
 * ✔️Understanding that strings are immutable; creating new instances for modifications 
@@ -48,9 +52,10 @@
     * Passing pointers to functions
     * Pointer arithmetic 
     * Common pointer pitfalls and dangers 
-* Structures 
-    * Defining and creating structures 
-    * Accessing and modifying struct fields 
+* #####  Structures / Methods (❇) 
+    * ✔️Defining and creating structures 
+    * ✔️Method Format, Types by `Receiver` 
+    * ✔️Accessing and modifying struct fields 
     * Embedding and composition 
     * Pointers to structures 
 
@@ -100,6 +105,7 @@
 
 
 Remember, this is just a guide. Explore topics in any order that suits you, revisit earlier sections as needed, and adapt the roadmap to your learning goals.
+
 
 
 

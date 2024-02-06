@@ -7,19 +7,30 @@ import (
 )
 
 func main() {
-	welcome := "Welcome to user input"
-	fmt.Println(welcome)
-
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("Enter the rating for out Pizza:")
 
-	/* comma ok syntax || comma err  syntax(like try-catch block)
-	to check the if recieving any error while handling packages
-	the first var before comma is for the result, and the after part is the error,
-	it can be name anything, but we leave the var as underscore if that var is not needed */
+	fmt.Println("Enter your name:")
 
-	input, _ := reader.ReadString('\n') // as we are taking the number as string, so we can only have string operations over it, need to learn typecasting
+	input, _ := reader.ReadString('\n')
 
-	fmt.Println("Thanks for you rating, ", input)
-	fmt.Printf("Type of the rating is %T", input)
+	fmt.Println(input)
+
+	// with Scanln
+	var name string
+
+	fmt.Println("Enter your username ")
+	fmt.Scanln(&name)
+	fmt.Println("Your username is ", name)
+
+	// for single integer
+	var age int
+	fmt.Println("Enter your age: ")
+	fmt.Scanln(&age)
+	fmt.Println("Your age is", age)
+
+	// taking inputs with more Formatting & Typecasted
+	var num1, num2 int
+	fmt.Print("Enter two numbers separated by space: ")
+	fmt.Scanf("%d %d", &num1, &num2)
+	fmt.Println("Sum:", num1+num2)
 }
