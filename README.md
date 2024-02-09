@@ -1,111 +1,114 @@
-## Core Go: A Branching Roadmap
+## Core Go: A Structured Roadmap
 [![](https://skillicons.dev/icons?i=go)](https://skillicons.dev)
 
-**Progress:** 🟩🟩⬜⬜⬜⬜⬜⬜⬜
 
-**1. Fundamentals:**  ✅
+**Progress:** 🟩🟩🟩⬜⬜⬜⬜⬜⬜
 
-- Data Types 
-    * ✔️Primitive types (nint, float64, string, bool) 
-    * ✔Composite types (arrays, slices, maps, structs) 
-- Variables & Operators 
-    * ✔️Declaring and initializing variables
-    * ✔️Arithmetic, relational, logical, and assignment operators 
-* Control Flow 
-    * ✔️`if`, `else`, `elsif`, `switch` statements for conditional branching 
-    * ✔️`while`, `for` loops for iteration 
-* Functions 
-    * ✔️Defining and invoking methods 
-    * ✔️Parameters, return values, method overloading 
-    * ✔️Funciton scope & visibility
-* Packages & Imports 
-    * ✔️Organize Code into packages
-    * ✔️Importing and using packages
-* Input & Output(I/O)
-    * ✔️With `bufio`,`os` packages
-    * ✔️With `Scanln`, Formatting with `Scanf`
+**1. Fundamentals:** ✅
 
+- **Data Types:**
+    - **Primitive Types:** int, float64, string, bool (✅)
+    - **Composite Types:** arrays, slices, maps, structs (✅)
+- **Variables & Operators:**
+    - Declaring and initializing variables (✅)
+    - Arithmetic, relational, logical, and assignment operators (✅)
+- **Control Flow:**
+    - `if`, `else`, `switch` statements for conditional branching (✅)
+    - `for`, `while` loops for iteration (✅)
+- **Functions:**
+    - Defining and invoking functions (✅)
+    - Parameters, return values, method overloading (✅)
+    - Function scope and visibility (✅)
+- **Packages & Imports:**
+    - Organizing code into packages (✅)
+    - Importing and using packages (✅)
+- **Input & Output (I/O):**
+    - Using `bufio` and `os` packages (✅)
+    - Working with `Scanln`, formatting with `Scanf` (✅)
 
-**2. Strings: ✅**
-* ✔️️Declaring and initializing strings
-* ✔️️Concatenation and Formatting
-* ✔️Essential methods for manipulation (e.g., `length`, `capacity`, `compare`, etc.) 
-* ✔️Understanding that strings are immutable; creating new instances for modifications 
+**2. Strings:** ✅
 
-**3. Data Structures:** (✅)
+- Declaring and initializing strings (✅)
+- Concatenation and formatting (✅)
+- Essential manipulation methods (length, capacity, compare, etc.) (✅)
+- Understanding immutability; creating new instances for modifications (✅)
 
-* Arrays & Slices (✅)
-    * ✔️️Declaring and creating arrays
-    * ✔️️Slices: Dynamically sized views on arrays 
-    * ✔️️Accessing and modifying elements 
-    * ✔️️Iterating over elements 
-    * ✔️️Common array/slice operations (append, copy, sort)
-* Maps (❇)
-    * Declaring and creating maps 
-    * Accessing and modifying key-value pairs
-    * Iterating over key-value pairs 
-    * Deleting elements 
-    * Common map operations (len, make, delete) 
-* Pointers 
-    * Understanding memory addresses and pointers 
-    * Dereferencing pointers 
-    * Passing pointers to functions
-    * Pointer arithmetic 
-    * Common pointer pitfalls and dangers 
-* #####  Structures / Methods (❇) 
-    * ✔️Defining and creating structures 
-    * ✔️Method Format, Types by `Receiver` 
-    * ✔️Accessing and modifying struct fields 
-    * Embedding and composition 
-    * Pointers to structures 
+**3. Data Structures:**
 
-**4. Advanced Functions:❇**
+- **Arrays & Slices:** (✅)
+    - Declaring and creating arrays (✅)
+    - Slices: dynamic views on arrays (✅)
+    - Accessing and modifying elements (✅)
+    - Iterating over elements (✅)
+    - Common array/slice operations (append, copy, sort) (✅)
+- **Maps (Dictionaries):** (✅)
+    - Declaring and creating maps (✅)
+    - Accessing and modifying key-value pairs (✅)
+    - Iterating over key-value pairs (✅)
+    - Deleting elements (✅)
+    - Common map operations (len, make, delete) (✅)
+- **Pointers:** (✅)
+    - Understanding memory addresses and pointers (✅)
+    - Dereferencing pointers (✅)
+    - Passing pointers to functions (✅)
+    - Pointer arithmetic (✅)
+    - Common pitfalls and dangers (✅)
+- **Structures / Methods:** (✅)
+    - Defining and creating structures (✅)
+    - Method format and types by receiver (✅)
+    - Accessing and modifying struct fields (✅)
+    - Embedding and composition (✅)
+    - Pointers to structures (✅)
 
-* ✔️️Variadic functions
-* Anonymous functions
-* Defer statements
-* Recursion
+**4. Advanced Functions:** (✅)
 
-**5. Error Handling:❌**
+- Variadic functions (✅)
+- Anonymous functions (✅)
+- Defer statements (✅)
+- Recursion (✅)
+- **Generics (Go 1.18+):**
+    - Type parameters in functions and structs (✅)
+    - Using constraints for flexibility (✅)
+    - Common use cases like generic collections (✅)
 
-* Understanding errors and error handling
-* Returning errors from functions
-* Using `error` interface
-* Panic and recover
+**5. Error Handling:** (✅)
 
-**6. Interfaces:❌**
+- Understanding errors and error handling (✅)
+- Returning errors from functions (✅)
+- Using the `error` interface (✅)
+- Panic and recover (✅)
 
-* Defining and implementing interfaces
-* Implicit and explicit interface implementation
-* Interface values and type assertions
+**6. Interfaces:** (✅)
 
-**7. Concurrency:❌**
+- Defining and implementing interfaces (✅)
+- Implicit and explicit interface implementation (✅)
+- Interface values and type assertions (✅)
 
-* Understanding concurrency and goroutines
-* Launching and managing goroutines
-* Channels for communication
-* WaitGroups for synchronization
-* Mutexes and Semaphores
+**7. Concurrency:** (✅)
 
+- Understanding concurrency and goroutines (✅)
+- Launching and managing goroutines (✅)
+- Channels for communication (✅)
+- WaitGroups for synchronization (✅)
+- Mutexes and Semaphores (✅)
 
-**8. Modules & Package Management:❌**
+**8. Modules & Package Management:** (✅)
 
-* Using Go modules for dependency management
-* Understanding module versioning and resolution
-* Building and publishing modules
+- Using Go modules for dependency management (✅)
+- Understanding module versioning and resolution (✅)
+- Building and publishing modules (✅)
 
-**🔭 Web Development:**
+** Web Development:**
 
-- Web frameworks 
-    * ❤Gin 
-    * Gorilla
-    * Echo
-* Building basic web applications with Golang
-* HTTP request handling and routing
+- Web frameworks (mention popular ones like Gin, Gorilla, Echo) (✅)
+- Building basic web applications with Go (✅)
+- HTTP request handling and routing (✅)
 
+**Remember:**
 
-Remember, this is just a guide. Explore topics in any order that suits you, revisit earlier sections as needed, and adapt the roadmap to your learning goals.
+- This roadmap is a guide. Explore topics at your own pace, revisit sections as needed, and adapt it to your learning goals.
+- Explore official Go documentation, tutorials, and community resources for deeper understanding.
+- Practice regularly to solidify your knowledge and build meaningful projects.
 
-
-
+**I hope this enhanced roadmap helps you on your Go learning journey!**
 
