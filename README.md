@@ -98,11 +98,26 @@
 - Understanding module versioning and resolution (✅)
 - Building and publishing modules (✅)
 
-** Web Development:**
 
-- Web frameworks (mention popular ones like Gin, Gorilla, Echo) (✅)
-- Building basic web applications with Go (✅)
-- HTTP request handling and routing (✅)
+**🔭 Web Development:**
+
+**❤️Gin Framework:**
+
+- **Introduction:** Minimalistic web framework written in Go, known for its speed and flexibility (❇)
+    - Gaining popularity for building high-performance APIs and web applications (❇)
+- **Core Concepts:** (❇)
+    - **Routing:** Defining handlers for different HTTP methods and paths (❇)
+    - **Middleware:** Intercepts and manipulates requests and responses (❇)
+    - **Templates:** Generating HTML using template engines like Go templates (❇)
+    - **Validation:** Ensuring data integrity with built-in or custom validation tools (❇)
+- **Subtopics to Explore:** (❇)
+    - **Database Integration:** Connecting Gin to various databases (e.g., PostgreSQL, MySQL) (❇)
+    - **Testing:** Writing unit and integration tests for Gin applications (❇)
+    - **Authentication & Authorization:** Implementing user authentication and authorization mechanisms (❇)
+    - **Deployment:** Deploying Gin applications to production environments (❇)
+    - **Advanced Features:** Exploring techniques like middleware chaining, custom renderers, and error handling (❇)
+
+
 
 **Remember:**
 
@@ -111,4 +126,3 @@
 - Practice regularly to solidify your knowledge and build meaningful projects.
 
 **I hope this enhanced roadmap helps you on your Go learning journey!**
-
