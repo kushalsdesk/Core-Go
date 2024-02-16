@@ -22,5 +22,10 @@ func main() {
 		fmt.Println(string(letter))
 	}
 	defer fmt.Println("Loop 2 finished.")
-}
 
+	looper := 1
+	for looper < 5 {
+		fmt.Print(looper)
+		looper++
+	}
+}

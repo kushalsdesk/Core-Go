@@ -1,0 +1,20 @@
+go 1.21.5
+
+use (
+	./02variable
+	./03userinput
+	./04typecasting
+	./05mytime
+	./06mypointers
+	./07myarrays
+	./08myslices
+	./09mymaps
+	./10mystructs
+	./11ifelse
+	./12switchcase
+	./13loops
+	./15methods
+	./16defer
+	./17files
+	./18http
+)
