@@ -84,13 +84,13 @@
 - Implicit and explicit interface implementation (✅)
 - Interface values and type assertions (✅)
 
-**7. Concurrency:** (✅)
+**7. Concurrency:** 
 
-- Understanding concurrency and goroutines (✅)
-- Launching and managing goroutines (✅)
-- Channels for communication (✅)
-- WaitGroups for synchronization (✅)
-- Mutexes and Semaphores (✅)
+- Understanding concurrency and goroutines 
+- Launching and managing goroutines 
+- Channels for communication
+- WaitGroups for synchronization 
+- Mutexes and Semaphores 
 
 **8. Modules & Package Management:** (✅)
 

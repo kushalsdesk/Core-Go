@@ -17,4 +17,6 @@ use (
 	./16defer
 	./17files
 	./18http
+	./19urls
+	./20modules
 )
